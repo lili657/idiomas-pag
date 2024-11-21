@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#importante {
+    color: #0e0e0e;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d93a72;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos para el contenedor de idiomas */
+.container {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Estilos de cada "cajita" de idioma */
+.language {
+    display: inline-block; /* Hace que los elementos estén en línea pero con propiedades de bloque */
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Transición para hover */
+}
+
+.language:hover {
+    transform: scale(1.05);
+    transition-duration: 2s;
+}
+
+/* Colores específicos para cada idioma */
+#chino {
+    background-color: #ff6600; /* Naranja */
+}
+
+#espanol {
+    background-color: #0099cc; /* Azul */
+}
+
+#ingles {
+    background-color: #4caf50; /* Verde */
+}
+
+#hindi {
+    background-color: #ffcc00; /* Amarillo */
+}
+
+#arabe {
+    background-color: #ff0033; /* Rojo */
+}
+
+#frances {
+    background-color: #7f7fff; /* Azul claro */
+}
+
+/* Estilos de texto dentro de las cajitas */
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.difficulty {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Selectores avanzados con jerarquías */
+.language p.difficulty {
+    font-style: italic;
+}
+
+/* Pseudoclases */
+.language:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.language:active {
+    transform: scale(0.98);
+}
+
+/* Responsive: Asegura que la página sea amigable con dispositivos móviles */
+@media (max-width: 768px) {
+    .language {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
