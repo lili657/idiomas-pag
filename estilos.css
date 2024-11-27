@@ -21,11 +21,15 @@ h1 {
     margin: 0;
 }
 
+
+
 /* Estilos para el contenedor de idiomas */
 .container {
     display: block;
     width: 80%;
     margin: 20px auto;
+    padding: 80px;
+    border: 13px;
 }
 
 /* Estilos de cada "cajita" de idioma */
@@ -34,7 +38,7 @@ h1 {
     width: 30%;
     margin: 10px;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 40px;
     text-align: center;
     box-sizing: border-box;
     transition: transform 0.3s ease; /* Transición para hover */
@@ -45,9 +49,20 @@ h1 {
     transition-duration: 2s;
 }
 
+.texto {
+    margin: 20px;
+    border-color: #0e0e0e;
+    border: 100px;
+    padding: 18px;
+    background-color: #d93a72;
+
+
+}
+
 /* Colores específicos para cada idioma */
 #chino {
     background-color: #ff6600; /* Naranja */
+    border-top: #d93a72;
 }
 
 #espanol {
@@ -74,6 +89,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     margin: 10px 0;
+    text-align: center;
 }
 
 .difficulty {
@@ -103,3 +119,12 @@ h2 {
         margin: 10px 0;
     }
 }
+.footer {
+text-align: center;
+border: #222422;
+margin: 29px;
+padding: 40px;
+font-size: x-large;
+content: icon;
+}
+
