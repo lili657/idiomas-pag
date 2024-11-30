@@ -60,11 +60,15 @@ h1 {
 }
 
 /* Colores específicos para cada idioma */
-#chino {
+#chino p {
     background-color: #ff6600; /* Naranja */
     border-top: #d93a72;
+    border-color: #0e0e0e;
 }
-
+#chino {
+    background-color: #7d7874; 
+    border-color: #0e0e0e;
+}
 #espanol {
     background-color: #0099cc; /* Azul */
 }
