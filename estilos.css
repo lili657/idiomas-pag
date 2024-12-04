@@ -13,7 +13,6 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #d93a72;
     color: #fff;
 }
 
@@ -24,13 +23,21 @@ h1 {
 
 
 /* Estilos para el contenedor de idiomas */
-.container {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
-    padding: 80px;
-    border: 13px;
+.flex-container {
+    display: flex;
+    background-color: hsl(24, 100%, 40%);
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row-reverse;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 1opx;
+
+    
+
+
 }
+
 
 /* Estilos de cada "cajita" de idioma */
 .language {
@@ -71,6 +78,8 @@ h1 {
 }
 #espanol {
     background-color: #0099cc; /* Azul */
+    border-width: 10px;
+    border-color: #0e0e0e;
 }
 
 #ingles {
@@ -123,12 +132,3 @@ h2 {
         margin: 10px 0;
     }
 }
-.footer {
-text-align: center;
-border: #222422;
-margin: 29px;
-padding: 40px;
-font-size: x-large;
-content: icon;
-}
-
